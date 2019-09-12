@@ -20,6 +20,7 @@ this is open, and focus on analysis.
 songs to be added:
 Lemon https://ke.qq.com/course/439471?taid=3826618292679855
 打上花火 https://ke.qq.com/course/439583?taid=3729028045780255
+请给我翅膀  https://www.bilibili.com/video/av4422538/
 
 https://baike.baidu.com/item/听歌学日语/747411
 
