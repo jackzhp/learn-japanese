@@ -12,78 +12,24 @@
 
 
 =====version with kana=========================
-いま私の愿いごとが
-我的愿望啊
-i ma wa ta shi no ne ga i go to ga
-かなうならば 翼がほしい
-若是能实现 那麼请给我翅膀
-ka na u na ra ba tsu ba sa ga ho shi i
-この背中に 鸟のように
-就像鸟儿一般 请在这背上
-ko no se na ka ni to ri no yo u ni
-白い翼つけてください
-装上纯白的翅膀吧
-shi ro i tsu ba sa tsu ke te ku da sa i
-この大空に 翼をひろげ
-在这片天空中张开双翼
-ko no o o zo ra ni tsu ba sa wo hi ro ge
-飞んで行きたいよ
-自在地飞翔啊
-to n de yu ki ta i yo
-悲しみのない 自由な空へ
-不存在悲伤的自由之空
-ka na shi mi no na i ji yu u na so ra e
-翼はためかせ 行きたい
-乘著风的双翼 向前飞翔
-tsu ba sa ha ta me ka se yu ki ta i
-いま富とか名誉ならば
-无论财富或名誉
-i ma to mi to ka me i yo na ra ba
-いらないけど 翼がほしい
-我都不需要 请给我翅膀
-i ra na i ke do tsu ba sa ga ho shi i
-子供の时 梦见たこと
-孩提时代的梦想啊
-ko do mo no to ki yu me mi ta ko to
-今も同じ 梦に见ている
-仍然如此盼望著
-i ma mo o na ji yu me ni mi te i ru
-この大空に 翼をひろげ
-在这片天空中张开双翼
-ko no o o zo ra ni tsu ba sa wo hi ro ge
-飞んで行きたいよ
-自在地飞翔啊
-to n de yu ki ta i yo
-悲しみのない 自由な空へ
-不存在悲伤的自由之空
-ka na shi mi no na i ji yu u na so ra e
-翼はためかせ 行きたい
-乘著风的双翼 向前飞翔
-tsu ba sa ha ta me ka se yu ki ta i
-この大空に 翼をひろげ
-在这片天空中张开双翼
-ko no o o zo ra ni tsu ba sa wo hi ro ge
-飞んで行きたいよ
-自在地飞翔啊
-to n de yu ki ta i yo
-悲しみのない 自由な空へ
-不存在悲伤的自由之空
-ka na shi mi no na i ji yu u na so ra e
-翼はためかせ
-乘著风的双翼
-tsu ba sa ha ta me ka se
-この大空に 翼をひろげ
-在这片天空中张开双翼
-ko no o o zo ra ni tsu ba sa wo hi ro ge
-飞んで行きたいよ
-自在地飞翔啊
-to n de yu ki ta i yo
-悲しみのない 自由な空へ
-不存在悲伤的自由之空
-ka na shi mi no na i ji yu u na so ra e
-翼はためかせ 行きたい
-乘著风的双翼 向前飞翔
-tsu ba sa ha ta me ka se yu ki ta i
+いまわたしのねがいごとがかなうならばつばさほしい。
+    今、私の愿い事が適うならば翼が欲しい。
+このせなかにとりのようにしろいつばさつけてください。
+    この背中に 鸟の様に白い翼附けて下さい
+このおおぞらにつばさをひろげとんでゆきたいよ。
+    この大空に 翼を広げ飞んで行きたいよ
+かなしみのないじゆうなそらへつばさはためかせゆきたい。
+    悲しみの無い 自由な空へ翼はためかせ行きたい
+いまとみとかめいよならばいらないけどつばさがほしい。
+    今、富とか名誉ならば要らないけど 翼が欲しい。
+こどものときゆめみたこといまもおなじゆめにみている。
+    子供の时 梦见た事，今も同じ梦に见て居る。
+この大空に翼をひろげ飞んで行きたいよ。
+悲しみのない 自由な空へ翼はためかせ行きたい
+この大空に 翼をひろげ飞んで行きたいよ
+悲しみのない 自由な空へ翼はためかせ
+この大空に 翼をひろげ飞んで行きたいよ
+悲しみのない 自由な空へ翼はためかせ 行きたい
 
 
 
