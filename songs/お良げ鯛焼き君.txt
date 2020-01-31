@@ -161,7 +161,7 @@ the compact version
          	飲み込む【のみこむ】past: 飲み込んだ　て-form: 飲み込んで
 		で: why て-form here?
 03:55 僕を美味そうに食べたのさ	ぼく
-		を: why を here?
+		を: why を here? eat me!
 		美味い【うまい】  そう adv.　　
 		食べる【たべる】 past: 食べた
 		の: explanary さ:ending
