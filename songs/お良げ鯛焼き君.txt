@@ -16,11 +16,11 @@ the compact version
 あるあさ　ぼくは　みせのおじさんと
 或  朝    僕は     店のおじさんと  
  けんかして うみに　にげこんだのさ
- 喧 嘩して   海に   逃げ込んだのさ	喧嘩する て-form: 喧嘩して  込む【こ・む】past: 込んだ
+ 喧 嘩して   海に   逃げ込んだのさ	
 はじめて　およいだ　うみのそこ
 初  めて   泳いだ    海の底 
 とっても　きもちが　いいもんだ
-摂っても  気持ちが  いい揉んだ	　把手【とって】　　いい:good もの:　もんだ？
+摂っても  気持ちが  いい揉んだ	　
 おなかの　あんこが　おもいけど
 お腹 の   あんこが   重 いけど
 01:10 うみは　ひろいぜ　こころがはずむ
@@ -42,7 +42,7 @@ the compact version
 いちにち　およげば　はらぺこさ
  一 日    泳げば    腹ペこさ 
 02:25 めだまも　くるくる　まわっちゃう    sounds like まわわっちゃう
-      目玉も  くるくる    回っちゃう           回る【まわ・る】its past回った【まわ・った】　ちゃう　completely, accidentally, isn't it?
+      目玉も  くるくる    回っちゃう           
 たまには　 えびでも　くわなけりゃ
  偶には     鰕でも   食わなけりゃ
 しおみず　ばかりじゃ　ふやけてしまう
@@ -81,13 +81,15 @@ the compact version
 		everyday, everyday, we 焼 on 鉄板 and fed up unintentionally.
 或朝,僕は店のおじさんと喧嘩して海に逃げ込んだのさ		あるあさ みせ うみ
 		喧嘩する【けん・かする】 て-form: 喧嘩して  
-         	逃げ込む【にげこむ】past: 逃げ込んだ
+		逃げ込む【にげこむ】past: 逃げ込んだ
+		込む【こ・む】past: 込んだ
 		の: as explanation
 		さ: ending.
 		some morning, I quarreled with boss, then ran to sea.
 初めて泳いだ 海の底録っても気持ちがいい揉んだ	　はじ そこ きもち
 		泳ぐ【およ・ぐ】past: 泳いだ【およいだ】
 		録る【とる】also play
+		把手【とって】　
 		いい:good 揉む【もむ】past: 揉んだ【もんだ】I really like to use 摸。
 		through swimming,and playing sea ground, good massage for mood.
 お腹の餡子が重いけど	なか  あんこ  おもい
@@ -122,15 +124,14 @@ the compact version
 		さ: ending?
 02:25 目玉も  くるくる    回っちゃう      まわっちゃう    sounds like まわわっちゃう
 		目玉【め・だま】
-		回る【まわる】past: 回った　
+		回る【まわる】past: 回った【まわ・った】　
 		ちゃう　completely, accidentally, isn't it?
 		もう帰っちゃっていい?	Is it ok if I went home already?
 		みんな、どっか行っちゃったよ。Everybody went off somewhere.
 		そろそろ遅くなっちゃうよ。It'll gradually become late, you know.
 		あっ!遅刻しちゃう!  Ah! We're going to be late!
 			遅刻する【ち・こくする】past: 遅刻した
-
- 偶には,鰕でも食わなけりゃ，塩水許りじゃ　潤けてしまう	  たま えび 　 しお・みず　ばかり　
+偶には,鰕でも食わなけりゃ，塩水許りじゃ　潤けてしまう	  たま えび 　 しお・みず　ばかり　
 		でも: even
 		食う【くう】negative:食わない, if: 食わなければ, 転: 食わなけりゃ
 		じゃ?
