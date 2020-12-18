@@ -48,8 +48,8 @@ Mary Had a Little Lamb
 PonPonPon
 
 
-
-
+lots of movie's subtitles: 
+https://project-modelino.com/movies.php?site_language=english&learn_language=japanese
 
 
 
