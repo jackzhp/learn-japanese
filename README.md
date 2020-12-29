@@ -53,6 +53,8 @@ https://project-modelino.com/movies.php?site_language=english&learn_language=jap
 
 
 
+restaurant related: 
+https://www.joyz.co.jp/blog/restaurant_english_phrases
 
 
 
