@@ -56,8 +56,11 @@ https://project-modelino.com/movies.php?site_language=english&learn_language=jap
 restaurant related: 
 https://www.joyz.co.jp/blog/restaurant_english_phrases
 
-
-
+https://japanesetest4you.com/
+井上 https://www.bilibili.com/video/BV1yb41187WA?p=2
+verb list： https://www.linguajunkie.com/japanese/japanese-verbs-list
+101 ways
+https://www.linguajunkie.com/japanese/how-to-say-thank-you-in-japanese
 
 About license
 
