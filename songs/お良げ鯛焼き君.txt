@@ -108,6 +108,7 @@ the compact version
 		眺めていた: was looking at. the Coral was looking at my swimming? 
 
 01:50 毎日,毎日,楽しい事許り,難破船が僕の棲家さ. まいにち　たのしい こと ばかり なんぱせん すみか
+		許り: always
 時々,鮫に虐められるけど     ときどき　さめ　いじめられる
 		虐める【虐める】 passive/potential: 虐められる
 		けど: however
