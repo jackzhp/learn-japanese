@@ -43,6 +43,9 @@
 //A newly built house.  which one is right? たてたの家 or たてた家?  
 //    今　来た　ばかり　です。
 //I just arrived.
+	public final static EKPrelation rel_tara = new EKPrelation("〜たがる", 2); // other people wanted.
+その中で一番になりたがる？
+僕等人间はどうしてこうも比べたがる？
 	public final static EKPrelation rel_tara = new EKPrelation("〜たら", 2); // if, condition
 //	あなたが　きたら、かれは　かえる。
 //	If you come, he will go home.くる(to come)->きた(came).
