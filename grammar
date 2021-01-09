@@ -43,7 +43,7 @@
 //A newly built house.  which one is right? たてたの家 or たてた家?  
 //    今　来た　ばかり　です。
 //I just arrived.
-	public final static EKPrelation rel_tara = new EKPrelation("〜たがる", 2); // other people wanted.
+	public final static EKPrelation rel_tara = new EKPrelation("〜たがる", 2); // other people wanted. stem of the masu form + たがる
 その中で一番になりたがる？
 僕等人间はどうしてこうも比べたがる？
 	public final static EKPrelation rel_tara = new EKPrelation("〜たら", 2); // if, condition
@@ -274,3 +274,5 @@
 //I’m not really good dancing.
 //お金は　あまり　ない。
 //I don’t have much money.
+//とか。。。とか。。。　とかbecomes とく。
+but where is the example.
