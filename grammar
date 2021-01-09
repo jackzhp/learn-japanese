@@ -1,0 +1,273 @@
+	/*
+	 * Do I want to have NonPastNegative, PassiveNegative, etc, if I go with this
+	 * approach(approach A), then too many relations(Not right argument!). and it
+	 * does not reflect the real relation(the right argument!)
+	 * 
+	 * The approach A is Entity E1 has all "negative" relations, such as
+	 * NonPastNegative, PassiveNegative, CausativeNegative, etc.
+	 * 
+	 * The approach B is that Entity E2(E1' passive etc) has a negative relation.
+	 * 
+	 * 
+	 * public final static EKPrelation relNonPastNegative = new
+	 * EKPrelation("NonPastNegative", 2);
+	 * 
+	 * 
+	 * Similarly, for ta-Te form(〜たって..., ~happened already, then now ...), with
+	 * approach A, the Entity E1 has it(so called ta-te form); while with approach
+	 * B, the entity E1 does not have it, it is the entity E3(E1's past) that has it
+	 * (which is a te form, not a ta-te form).
+	 * 
+	 * I go with approach B. Is approach B better than approach A? overtime, I think
+	 * approach A is better. though approach A is rough, and approach B is finer.
+	 * 
+	 * approach A should be much more efficient, and it should be used!
+	 * 
+	 */
+	public final static EKPrelation relNegative = new EKPrelation("Negative", 2);
+	// ~ないでください. such as ケーキを 食べないで ください。
+	public final static EKPrelation rel_naidekudasai = new EKPrelation("ないでください", 2);
+
+	public final static EKPrelation relNonPast = new EKPrelation("NonPast", 2); // the original one 食べる
+	public final static EKPrelation relPast = new EKPrelation("Past", 2); // 食べた
+//です→でした
+	// だ→だった
+	public final static EKPrelation rel_tai = new EKPrelation("〜たい", 2); // when used with negative, it should be 〜たく
+	public final static EKPrelation rel_taku = new EKPrelation("〜たく", 2); // from 〜たい
+//	でもかぐや姫はお爺さんとお婆さんと離れたくありません。	
+
+	public final static EKPrelation rel_tabakari = new EKPrelation("〜たばかり", 2); // 食べたばかりです。
+//    食べた　ばかり　です。
+//I　just　ate.
+//    たてた　ばかりの　家。
+//A newly built house.  which one is right? たてたの家 or たてた家?  
+//    今　来た　ばかり　です。
+//I just arrived.
+	public final static EKPrelation rel_tara = new EKPrelation("〜たら", 2); // if, condition
+//	あなたが　きたら、かれは　かえる。
+//	If you come, he will go home.くる(to come)->きた(came).
+//	ゴジラに　会ったら、どうしよう？　
+//	What should I do if I meet Godzilla?
+//	お金持ちだったら、大きな　家が　買える　のに。
+//	If only I were rich, I could buy a large house. 持つ->持ち This “のに” is not explained.
+	// we have ~だったら, do we have ~でしたら？
+
+	public final static EKPrelation rel_tari = new EKPrelation("〜たり", 2); // more than 1 of it, parallel listing. that's
+																			// 2nd level recognition
+//	AたりBたりCたり    xた is the past form. but "past" is the right term? 
+//	泣いたり笑ったり喧嘩をしたり
+//	from the song “ありがとう あなた”
+//	              立ったり　座ったり。
+//	Standing and sitting
+//	              ドルが　上がったり　下がったり。
+//	The dollar is rising and falling.
+//	きょうは買い物をしたり レストランで食べたり して　たくさんのお金を使った。
+//	Today, I went shopping and ate at a restaurant, etc; I used a lot of money. 
+//	一緒に歌ったり踊ったりしました。
+//nhk easy japanese#26
+
+	public final static EKPrelation rel_takotogadekiru = new EKPrelation("~たことができる", 2); // potential. ~た is simple
+																							// past. let's name it
+																							// "universal potential".
+//	any simple past verb + ことができる
+//	can do something
+	public final static EKPrelation rel_takotogaarimasu = new EKPrelation("~たことがあります", 2); // completion. ~た is simple
+																							// past.
+	// アメリカに 行った ことが あります か？
+	// Have done. Have you been to America?
+//    納豆を　食べた　ことが　あります。
+//(I) have eaten natto before.
+
+	public final static EKPrelation rel_i_masu = new EKPrelation("(い)ます", 2); // ~ます. they can have past
+	// original its name is "Polite" which is too vague, so changed to "masu"
+	// ~てください and ~ないでください and more are polite too. Hence, we should not name it as
+	// "polite" form.
+	// and for 食べる→食べます, so I should not call it "(い)ます" form either.
+	// and for 買う、we have 買います(non-past polite),買えます(potential polite), so I should
+	// not call it "ます" form either.
+	// then what name could be appropriate? for now, I keep using "(い)ます" for temp.
+	// "(い)ます" form is appropriate.
+	// since 買えます is not from 買う directly, but from 買える.
+	public final static EKPrelation rel_o__i_kudasai = new EKPrelation("お~(い)ください", 2); // honorific
+//    売って　ください。
+//Please sell (me this). (normal)
+//    お売り　ください。
+//Please sell (me this) (honorific)
+//    食べて　ください。
+//Please eat. (normal)
+//    お食べ　ください。
+//Please eat. (polite)
+	public final static EKPrelation rel_o__i_ninarimashita = new EKPrelation("お~(い)になりました", 2); // honorific
+	// do we have お~(い)になります?
+	public final static EKPrelation rel_o__i_ninarimasen = new EKPrelation("お~(い)になりません", 2); // honorific
+	// at present, pepole take 話す as the basic form from which all others are
+	// derived.
+	// I think maybe using 話し as the basic form might be more appropriate.
+//    社長と　話しました　か？
+//Did you speak with the boss? (normal)
+//    社長と　お話し　に　なりました　か？
+//Did you speak with the boss? (polite)  話しに? or 話に?
+//    何か　飲みません　か？
+//Won’t you drink something? (normal)
+//    何か　お飲み　に　なりません　か？
+//Won’t you drink something? (polite)
+
+	public final static EKPrelation rel_i_masyou = new EKPrelation("(い)ましょう", 2);
+	public final static EKPrelation rel_i_mashita = new EKPrelation("(い)ました", 2);
+	public final static EKPrelation rel_i_masen = new EKPrelation("(い)ません", 2);
+	public final static EKPrelation rel_i_masenka = new EKPrelation("~(い)ませんか", 2); // for proposal
+
+	public final static EKPrelation rel_i_masendeshita = new EKPrelation("(い)ませんでした", 2);
+	public final static EKPrelation rel_i_nagara = new EKPrelation("(い)ながら", 2);
+//    音楽を　聴きながら　勉強を　しました。
+//While studying, I listened to music.
+//    本を　読み　ながら　ご飯を　食べます。
+//While eating a meal, I read a book.	
+	public final static EKPrelation relTe = new EKPrelation("Te", 2);
+	// ~てください。such as はし の 正しい 使い方を 教えて ください。
+	// ~ないでください. such as ケーキを 食べないで ください。
+	public final static EKPrelation rel_tekudasai = new EKPrelation("てください", 2);
+	public final static EKPrelation rel_temoiidesuka = new EKPrelation("てもいいですか", 2);
+	// ～てもいいですか？ ask for permission and being polite.
+//    電話を　使っても　いい　です　か？
+//May I use the phone?
+//    休んでも　いい　です　か？
+//May I take a break? (from work, from studying, etc)
+//    ちょっと　話しても　いい　です　か？
+//May I say something? (I’d like to speak a little)
+
+	public final static EKPrelation relCompleted = new EKPrelation("Completed", 2); // 〜てしまう; 〜てしまった. "Present Perfect"
+																					// for English.
+	public final static EKPrelation rel_teshimau = new EKPrelation("〜てしまう", 2); // 〜てしまう;"Present Perfect"
+	public final static EKPrelation rel_chau = new EKPrelation("〜ちゃう", 2); // 〜ちゃう=〜てしまう;"Present Perfect"
+	public final static EKPrelation rel_teshimatta = new EKPrelation("〜てしまった", 2); // 〜てしまった. "Past Perfect" for
+																					// English.
+	public final static EKPrelation rel_chatta = new EKPrelation("〜ちゃった", 2); // 〜ちゃった=〜てしまった. "Past Perfect" for
+																				// English.
+	public final static EKPrelation rel_teshimaimashita = new EKPrelation("〜てしまいました", 2); // しまう→しまいました "Past Perfect"
+																							// for English.
+//do we have 〜ちゃいました？
+
+	public final static EKPrelation relIf = new EKPrelation("If", 2); // 思えば、食べれば、飲めば、すれば
+	// tofugu says: for general truths, habits, the future, hypothetical situations
+	// in the present,
+	// hypothetical situations in the past, in questions.
+	// it is difficult to decouple the morphosyntax and semantics.
+	// similar to ~と(勝手にベーコンを食べると、マミは怒る。) for strong causal.
+	// and 〜たら(来たら、会ったら)
+	// related to adjective conditions such as 可愛い→可愛ければ、可愛くないー＞可愛くなければ
+	public final static EKPrelation relPotential = new EKPrelation("Potential", 2); // e column 書く→書ける
+	// for 食べる, both potential and passive are same: 食べられる? Yes. because of ら抜き言葉
+	public final static EKPrelation rel_e_masu = new EKPrelation("(え)ます", 2); // potential and polite
+//    これは　５，０００円　ほどで　買えます。
+//This can be bought for about 5000 yen.
+	public final static EKPrelation rel_e_ru = new EKPrelation("(え)る", 2); // potential
+//	書ける/書けます
+//	able to write
+//	              漢字が　書けます　か？
+//	Can you write kanji? [NOTE: use が ga with the potential form]
+//	食べられる/食べられます
+//	able to eat
+//	              ピーマンが　食べられます　か？
+//	              Can you (Are you able to) eat green peppers?
+//	くる→こられる
+//	can come
+//	する→できる
+//	can do
+//	              パーティに　こられます　か？
+//	Can you come to the party?
+
+	public final static EKPrelation relPassive = new EKPrelation("Passive", 2); // a column 書く→書かれる
+	// XはYに〜られる。 X is 〜ed by Y.
+	public final static EKPrelation relCausative = new EKPrelation("Causative", 2);// 書く→書かさせる
+	// コウイチはマミにベーコンを好きなだけ食べさせた。
+	// 両親は私に好きなだけベーコンを食べさせた。
+	public final static EKPrelation relCausativePassive = new EKPrelation("CausativePassive", 2);
+	// 毎日、母に納豆を食べさせられます。
+	public final static EKPrelation rel_o_u = new EKPrelation("(お)う", 2); // Volitional 食べよう、飲もう、しよう、来よう、書こう
+	// its polite: 行きましょう.
+	// 行こう its negative: 行かないでおこう which is from 行かないで置く(not なくて置く. why?),
+	// or 行くのはやめよう which is from 行くのはやめる
+	// or 行くのはよそう which is from 行くのはよす
+	// or 行くのはやめておこう or 行くのはよしておこう
+	public final static EKPrelation rel_u_nasai = new EKPrelation("(う)なさい", 2); // Imperative. なさい
+	// tofugu says: for polite commands and for showing care
+	// 食べなさい imperative. this is a bit polite compared to command "食べろ"
+	// 見る→見なさい、会う→会いなさい、書く→書きなさい、する→しなさい、来る→来なさい、お休みなさい
+	// related: for request use ~て下さい、〜てくれませんか。
+	public final static EKPrelation rel_o = new EKPrelation("(お)", 2); // command (many people call it as imperative)
+	// tofugu says: for commands, and for encourage
+	// 食べる→食べろ,かく→書け、やる→やれ、頑張る→頑張れ、来る→来い、する→しろ、くれる→くれ
+	// attach よending to make it softer.
+	// やめろよ << やめろって/やめろってば << やめろ
+	public final static EKPrelation rel_u_na = new EKPrelation("(う)な", 2); // 食べるな、構うな、泣くな
+	// any relation with rel_u_nasai "(う)なさい"?
+
+	// その場合はどうすればいい？ from する→すれる→すれば
+	// これは５０００円ほどで買えます。買う potential→買える polite→買えます
+	// 〜まい ？also wanted ?
+
+	public final static EKPrelation rel_no_1 = new EKPrelation("no_1", 1); // Aの while B is omitted
+	// 青いの。
+	// 安いのがほしい。
+	// I should not have rel_no_1. the relation is between EKP(青い) and EKP(青いの)
+	public final static EKPrelation rel_no_2 = new EKPrelation("no_2", 2); // AのB
+
+	//should be of triangle relation
+	public final static EKPrelation rel_humble_normal_honorific = new EKPrelation("HumbleNormalHonorific", 3);
+//	拝見します
+//	見ます
+//	ご覧になります
+//	to see
+//	申します
+//	言います
+//	おっしゃいます
+//	to say
+//	いただきます
+//	食べます
+//	召し上がります
+//	to eat
+//	まいります
+//	来ます/行きます
+//	いらっしゃいます
+//	to come/to go
+//	いたします
+//	します
+//	なさいます
+//	to do
+
+	// do I need this relation? Yes, but should be of triangle relation such as
+	// (高,高い,高さ), (静か,静かな,静かさ)
+	// it is not good to have 2 binary relations as (高,高い), (高,高さ), or
+	// (静か,静かな),(静か,静かさ)
+	public final static EKPrelation rel_degree_level_amount = new EKPrelation("~さ", 2);
+	// seems better to set the basic form to be 高, 静か(the state, noun), then we
+	// derive 高い(as property) and 高さ(the degree of the state), 静かな and 静かさ.
+//    ぞうさんの　高さは　どのくらい　です　か？
+//What is the height of an elephant?
+//    この車　の　静かさは　驚くべき　もの　です。
+//    This car’s quietness is amazing.
+
+}
+// other EKP
+//* Aにします
+//              なにに　します　か？
+//What will you have?      
+//        私は　てんぷら　にします。
+//I’ll have tempura.
+//* たとえAてもB    Aて is verb's て form. this rule should not be primary level, should be second level(some kind of extra recognition) 
+//たとえ　世界が　終わっても・・・
+//Even if the world ends...
+//たとえ　失敗しても　また　頑張りましょう。
+//Even if we fail, let’s keep at it.
+//たとえ　二度と　会えなくても　忘れません。
+//Even if we shall never meet again, I won’t forget.
+//* あまり with negative verb. this should be second level recognition.
+//日本語が　あまり　上手　じゃない。
+//I’m not really good at Japanese.
+//あまり　よくない。
+//(That’s) not really good.
+//踊りは　あまり　うまく　ない。
+//I’m not really good dancing.
+//お金は　あまり　ない。
+//I don’t have much money.
