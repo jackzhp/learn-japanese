@@ -35,6 +35,7 @@
 	public final static EKPrelation rel_tai = new EKPrelation("〜たい", 2); // when used with negative, it should be 〜たく
 	public final static EKPrelation rel_taku = new EKPrelation("〜たく", 2); // from 〜たい
 //	でもかぐや姫はお爺さんとお婆さんと離れたくありません。	
+//会いたくて from 会いたい
 
 	public final static EKPrelation rel_tabakari = new EKPrelation("〜たばかり", 2); // 食べたばかりです。
 //    食べた　ばかり　です。
