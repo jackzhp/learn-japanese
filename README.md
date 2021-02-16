@@ -62,6 +62,8 @@ verb list： https://www.linguajunkie.com/japanese/japanese-verbs-list
 101 ways
 https://www.linguajunkie.com/japanese/how-to-say-thank-you-in-japanese
 
+https://www.kaplaninternational.com/jp/blog/kaplan5mins-part7-english-useful-vocab-supermarket
+
 About license
 
 feel free to do anything about it.
