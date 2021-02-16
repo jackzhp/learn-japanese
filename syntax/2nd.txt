@@ -1,0 +1,36 @@
+second level grammar
+
+AはBを(ますform of a verb).
+私はパンを食べます。
+Aは(i-adjective)です。
+ゾウは　大きい　です。
+Aは(noun)です。
+これ　は　ねこ　です 。
+
+これ is an entity.
+ねこ is an entity.
+
+it was said 3 forms are equivalent.
+だ da (simple; informal)
+です desu (polite; normal form)
+でございます de gozaimasu (formal; honorific or humble speech)
+
+AとB
+AとBとC
+AはBが話せます。
+私は日本語と英語とフランス語が話せます。
+
+Aがいます
+
+AはBが
+わたしは　ねこが　すき　です。
+
+Aとおもいます。
+わたし　は　ピザ　が　おいしい　と　おもいます。
+
+"でも" means "but"
+日本語が　好き　でも　フランス語は　きらい　です。
+I like Japanese, but I hate French.
+
+Aから
+新あたらしい　本ほんを　買かいました。そして　今日きょう　から　読よみます。

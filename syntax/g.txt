@@ -24,6 +24,9 @@
 	 * approach A should be much more efficient, and it should be used!
 	 * 
 	 */
+I need name each form. and a form might have more than 1 name.
+and relation is not between 2 forms, but among many forms.
+
 	public final static EKPrelation relNegative = new EKPrelation("Negative", 2);
 	// ~ないでください. such as ケーキを 食べないで ください。
 	public final static EKPrelation rel_naidekudasai = new EKPrelation("ないでください", 2);
@@ -86,6 +89,7 @@
 	// original its name is "Polite" which is too vague, so changed to "masu"
 	// ~てください and ~ないでください and more are polite too. Hence, we should not name it as
 	// "polite" form.
+	//and I want to call the stem of the masu form as the original.
 	// and for 食べる→食べます, so I should not call it "(い)ます" form either.
 	// and for 買う、we have 買います(non-past polite),買えます(potential polite), so I should
 	// not call it "ます" form either.
@@ -166,6 +170,9 @@
 //    これは　５，０００円　ほどで　買えます。
 //This can be bought for about 5000 yen.
 	public final static EKPrelation rel_e_ru = new EKPrelation("(え)る", 2); // potential
+//2 meaning for potential: capability(be able to do sth.) or possibility(sth might happen)	
+//potential is vague, I should use capability or possibility instead.
+//but seems potential is right here.
 //	書ける/書けます
 //	able to write
 //	              漢字が　書けます　か？
@@ -180,6 +187,8 @@
 //	can do
 //	              パーティに　こられます　か？
 //	Can you come to the party?
+//私は日本語と英語とフランス語が話せます。
+//話す→話せます
 
 	public final static EKPrelation relPassive = new EKPrelation("Passive", 2); // a column 書く→書かれる
 	// XはYに〜られる。 X is 〜ed by Y.
