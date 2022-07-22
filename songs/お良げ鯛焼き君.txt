@@ -6,8 +6,8 @@ the compact version
 
 =====the version with kana, so you can sing along==
 
-お よげ！  たい やき  くん
-お 良げ    鯛   焼き  君
+およげ！  たい やき  くん
+　泳げ    鯛   焼き  君
 （昭和５０年）高田ひろお作詞　　　佐瀬寿一作曲　子門真人歌　
 まいにち　まいにち　ぼくらはてっぱんの
  毎 日     毎日   僕  等は鉄 板  の	
@@ -69,7 +69,8 @@ the compact version
      僕  を 美味そうに  食べたのさ	美味い 【うまい】  そう? adv.　　の: explanary さ:ending
 
 ===the version with analysis======================================================
-  およげ！ 鯛焼き君	
+  泳げ！ 鯛焼き君	
+		泳ぐ【およぐ】 potential: 泳げる；泳げない	imperative: 泳げ；泳ぐな
 （昭和５０年）高田ひろお作詞　　　佐瀬寿一作曲　子門真人歌　
 毎日,毎日,僕等は鉄板の上で焼かれて嫌になっちゃうよ	
 		かれ     ごうい   うえ   びんそく   こうどう
@@ -91,6 +92,7 @@ the compact version
 		泳ぐ【およ・ぐ】past: 泳いだ【およいだ】
 		録る【とる】also play
 		把手【とって】　
+		とっても＝とても
 		いい:good 揉む【もむ】past: 揉んだ【もんだ】I really like to use 摸。
 		through swimming,and playing sea ground, good massage for mood.
 お腹の餡子が重いけど	なか  あんこ  おもい
@@ -171,7 +173,7 @@ the compact version
 
 
 ++++the compact version+++++++++++++++++++++++++++++++++++++++++++++
-  お良げ！鯛焼き君
+  泳げ！鯛焼き君
 （昭和５０年）高田ひろお作詞　　　佐瀬寿一作曲　子門真人歌　
 毎日,毎日,僕等は鉄板の上で焼かれて嫌になっちゃうよ	ない past: なった        「〜てしまう」 -> 「〜ちゃう」
 或朝,僕は店のおじさんと喧嘩して海に逃げ込んだのさ		あるあさ みせ うみ
